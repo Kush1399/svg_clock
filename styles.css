@@ -1,0 +1,52 @@
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: turquoise;
+  margin: 0;
+}
+
+text {
+  fill: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.minute-circle {
+  fill: transparent;
+  stroke: red;
+  stroke-width: 7;
+  stroke-dasharray: 0.2 0.8;
+  stroke-dashoffset: 0.1;
+}
+
+.hour-circle {
+  fill: transparent;
+  stroke: yellow;
+  stroke-width: 7;
+  stroke-dasharray: 0.2 4.8;
+  stroke-dashoffset: 0.1;
+}
+
+.hand {
+  stroke: white;
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
+.hand-thick {
+  stroke-width: 7;
+}
+
+.hand-second {
+  stroke: red;
+}
+
+.center {
+  stroke: white;
+  fill: transparent;
+}
