@@ -19,7 +19,7 @@ text {
 .minute-circle {
   fill: transparent;
   stroke: red;
-  stroke-width: 7;
+  stroke-width: 14;
   stroke-dasharray: 0.2 0.8;
   stroke-dashoffset: 0.1;
 }
@@ -27,19 +27,19 @@ text {
 .hour-circle {
   fill: transparent;
   stroke: yellow;
-  stroke-width: 7;
+  stroke-width: 14;
   stroke-dasharray: 0.2 4.8;
   stroke-dashoffset: 0.1;
 }
 
 .hand {
   stroke: white;
-  stroke-width: 2;
+  stroke-width: 4;
   stroke-linecap: round;
 }
 
 .hand-thick {
-  stroke-width: 7;
+  stroke-width: 14;
 }
 
 .hand-second {
@@ -48,5 +48,6 @@ text {
 
 .center {
   stroke: white;
+  stroke-width: 4;
   fill: transparent;
 }
